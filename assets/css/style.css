@@ -1,0 +1,160 @@
+* {
+    margin:0;
+    padding:0;
+    }
+
+body {
+    background-image: url("..//images/funky-lines.png");
+    background-size: 100%;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;  
+    color: #777777;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff ;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    border-bottom: 5px solid #cccccc;
+}
+
+.name{
+    background-color:#4aaaa5;
+    color: #ffffff;
+    float: left;
+    vertical-align: top;
+    overflow: hidden;
+    padding: 22px;
+    position: absolute;
+    top: 0px;
+
+    }   
+
+h1{
+    color: #4aaaa5;
+    font-size: 36px;
+    
+}
+
+h2{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.content {
+    background-color:#ffffff;
+    width: 920px;
+    margin: 20px auto;
+    padding: 20px;
+    min-height: 300px;
+    clear: both;
+    overflow: hidden;
+    border-color: #dddddd;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 20px 0 20px 0;
+    width: 960px;
+    margin: auto;   
+}
+
+.navbutton {
+    text-decoration: none;
+    color: #dddddd;
+    float: right;
+    border-left: 1px solid #bbb;
+    padding: 1px 10px;
+    line-height: 10px;
+    
+}
+li:last-child{
+    border-left: none;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: #777777;
+}
+
+ hr{
+    background-color: #dddddd;
+    border: none;
+    margin: 2em 0;
+    height: 2px;
+    
+}
+
+.footer {
+    text-align: center;
+    height: 50px;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #cccccc;
+}
+input[type=submit]{
+    background-color:#4aaaa5;
+    color: #ffffff;
+    border: 0;
+    padding: 5px 20px;
+    font-size: 14pt;
+}
+
+input[type=text]{
+   border:#dddddd solid;
+   padding: 10px;
+   border-width: .5px;
+}
+
+textarea{
+    border:#dddddd solid;
+    border-width: .5px;
+}
+
+
+
+
+.portname{
+    position: absolute;
+    background-color:#4aaaa5; 
+    width: 100%;
+    left: 0;
+    top: 70%;
+    padding: 20px 0;
+}
+
+
+.labeledimage{
+    position: relative;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    
+    }
+
+
+    .clearfix {
+        overflow: auto;
+    }
+
+.floatedcontainer{
+    max-width: 500px;
+}
+.newline{
+    clear: left;
+}
+.imgfloat{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

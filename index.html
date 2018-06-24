@@ -3,38 +3,31 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 
-<body>
-    <header>
-
-        <ul>
-            <li>
-                <h1 class="name">Ryan Foss</h1>
-            </li>
-            <li class="navbutton">
-                <a href="contact.html"> Contact </a>
-            </li>
-            <li class="navbutton">
-                <a href="portfolio.html"> Portfolio </a>
-            </li>
-            <li class="navbutton">
-                <a href="index.html"> About </a>
-            </li>
-        </ul>
-    </header>
-    <div class="content">
-        <h1>About Me</h1>
-
-        <hr>
-
-        <div class="imgfloat">
-            <img src="assets/images/phcomputer.jpg" height="200" width="200" alt="computer">
+<header id="masthead">
+        <div class="container">
+          <a href="index.html" id="logo">Ryan Foss</a>
+          <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+          </nav>
         </div>
+      </header>
+    
+      <div id="main-container" class="container">
+        <section class="main-section">
+                <h1>About Me</h1>
+
+
+                <img src="assets/images/phcomputer.jpg" height="200" width="200" alt="computer">
+    
         <p>My name is Ryan Foss. I currently work at the IT Help Desk for a large insurance company. As much as I enjoy the
             many challenges and surprises that await me on the other end of the phone on the calls I take every day, I hope
             to become a software developer.</p>
@@ -48,8 +41,11 @@
 
 
 
-    <footer class="footer">
-        <br> Copyright &copy;</footer>
+    <footer>
+            <div class="container">
+         Copyright &copy;
+    </div>
+</footer>
 </body>
 
 </html>
